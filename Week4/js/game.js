@@ -1,8 +1,8 @@
 (function(){
 var game = {
-randomNumber: 11, //we will random this number later
-init: function(){
-	this.bindEvent();
+randomNumber: Math.floor(Math.random() * 101),
+	init: function(){
+		this.bindEvent();
 
 },
 bindEvent: function() {
